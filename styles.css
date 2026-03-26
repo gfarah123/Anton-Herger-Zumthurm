@@ -583,9 +583,16 @@ ul {
 }
 
 .contact-list li + li,
-.site-footer__stack li + li,
 .site-footer__legal li + li {
-  margin-top: 8px;
+  margin-top: 4px;
+}
+
+.site-footer__stack {
+  line-height: 1.28;
+}
+
+.site-footer__stack li + li {
+  margin-top: 0;
 }
 
 .form-panel {
@@ -650,14 +657,14 @@ ul {
 
 .site-footer__column strong {
   display: block;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   font-size: 0.96rem;
 }
 
 .site-footer__nav,
 .site-footer__legal {
   display: grid;
-  gap: 8px;
+  gap: 4px;
 }
 
 [data-reveal] {
